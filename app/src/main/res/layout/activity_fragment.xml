@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50dp"
+    tools:context=".FragmentActivity">
+
+    <Button
+        android:id="@+id/bt_static"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Static Fragment" />
+
+    <Button
+        android:id="@+id/bt_dynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Fragment"
+        android:layout_marginBottom="30dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Fragment One" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Fragment Two" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".StyleActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/GreenText.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/textView11"
+        style="@style/GreenText.Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a description!" />
+
+    <TextView
+        android:id="@+id/textView12"
+        style="@style/BlueText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inherit Built-In" />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/GreenText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Simple Style" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This text is styled via textAppearance!"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+
+    <Button
+        android:id="@+id/bt_theme"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HI" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Simple Style
+    <style name="GreenText">
+        <item name="android:textColor">#00A500</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    // Simple Style
+
+    // Inherit Build-in Style
+    <style name="BlueText"  parent="TextAppearance.AppCompat.Display2">
+        <item name="android:textColor">#03A9F4</item>
+    </style>
+    // Inherit Build-in Style
+
+    // Inherit User-defined Style
+    <style name="GreenText.Title">
+        <item name="android:textSize">22dp</item>
+    </style>
+    <style name="GreenText.Description">
+        <item name="android:textSize">17dp</item>
+    </style>
+    // Inherit User-defined Style
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+    </style>
+
+</resources>

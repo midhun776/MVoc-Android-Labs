@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OptionsActivity"
+    android:gravity="center"
+    android:padding="50dp">
+
+    <Button
+        android:id="@+id/bt_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress Bar" />
+
+    <Button
+        android:id="@+id/bt_customToastDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Toast / Dialog " />
+
+    <Button
+        android:id="@+id/bt_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragments" />
+
+    <Button
+        android:id="@+id/bt_adapters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adapters" />
+
+    <Button
+        android:id="@+id/bt_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#800A51"
+        android:text="Recycler View" />
+
+    <Button
+        android:id="@+id/bt_intents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
+        android:text="Intent and Intent Filters" />
+
+</LinearLayout>
