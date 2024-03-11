@@ -16,6 +16,7 @@ class OptionsActivity : AppCompatActivity() {
         var bt_adapters = findViewById<Button>(R.id.bt_adapters)
         var bt_recycler = findViewById<Button>(R.id.bt_recycler)
         var bt_intents = findViewById<Button>(R.id.bt_intents)
+        var bt_notification = findViewById<Button>(R.id.bt_notifications)
 
         btProgress.setOnClickListener {
             var i = Intent(applicationContext,ProgressActivity::class.java)
@@ -42,6 +43,10 @@ class OptionsActivity : AppCompatActivity() {
         }
         bt_intents.setOnClickListener {
             var i = Intent(applicationContext,IntentActivity::class.java)
+            startActivity(i)
+        }
+        bt_notification.setOnClickListener {
+            var i = Intent(applicationContext,NotificationActivity::class.java)
             startActivity(i)
         }
 

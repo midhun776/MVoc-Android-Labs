@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotificationActivity"
+    android:gravity="center"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Click to send Notification!"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/bt_notifySend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"/>
+
+</LinearLayout>

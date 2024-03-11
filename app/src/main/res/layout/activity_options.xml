@@ -47,4 +47,11 @@
         android:backgroundTint="#673AB7"
         android:text="Intent and Intent Filters" />
 
+    <Button
+        android:id="@+id/bt_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#668741"
+        android:text="Notifications" />
+
 </LinearLayout>
